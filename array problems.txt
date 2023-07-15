@@ -1,0 +1,100 @@
+ 
+public class rishu {
+    
+      static int logic (int x , int y ){
+      int z ; 
+      if(x>y){
+        z = x+y;
+    }
+    else {
+        z = (x +y) * 5;
+    }
+    x = 566;
+    return z;
+}
+      //  System.out.println("enter your number please");
+       // Scanner scn = new Scanner(System.in);
+        /* * int a = scn.nextInt();
+        int b = scn.nextInt();
+        int c = scn.nextInt();
+  
+        int max = a;
+        if (b >= max)
+          max = b;
+    
+        if (c >= max)
+          max = c;
+    
+        if (max == a) {
+          System.out.println((b * b + c * c) == (a * a));
+        } else if (max == b) {
+          System.out.println((a * a + c * c) == (b * b));
+        } else {
+          System.out.println((a * a + b * b) == (c * c));
+        */ 
+        // Scanner scn = new Scanner(System.in);
+      /*int n = 200;
+    
+        for (int i = 1; i * i <= n; i++)
+        {
+          System.out.println(i * i);  
+float[] marks = { 23.0f, 34.9f, 83.0f,34.9f};
+float sum = 0;
+for ( float element:marks){
+  sum = sum + element;
+}
+System.out.println("the sum of these numbers are" + sum);       
+float[] marks = { 23.0f, 34.9f, 83.0f,34.9f};
+float num = 45.9f;
+boolean present = false ;
+for ( float element:marks){
+  if (num==element){
+  present= true;
+  break;
+}
+}
+
+if (present)
+{
+  System.out.println("number is present in array");
+}
+else { System.out.println("number is not present in array");}
+int sum=0;
+   int[] marks = {20,30,40,50,60};
+  for (int element:marks){
+sum = sum + element;
+  }
+  {
+    System.out.println("average of these numbers are"+ sum/marks.length);
+  }
+
+int [] marks = {20,700,400,500};
+int max =800;
+for ( int element:marks){
+  if (  element < max)
+max = element;
+}
+System.out.println("the maximum number of tehse aray is" +max);
+boolean sauted = true;
+int [] marks = {1,2,83,4,56,};
+for (int i = 0 ; i < marks.length - 1; i++)
+
+if (marks [i] > marks[i + 1]  )
+{
+  sauted = false;
+break;
+}
+if (sauted){
+  System.out.println("the arrey is sauted");
+}else {System.out.println(" no the array is not sauted");}*/
+public static void main(String[] args) {
+  int a = 1;
+  int b = 2;
+  int c;
+   c = logic(a, b);
+  System.out.println( a+  " " + b);
+}
+
+    }
+
+  
